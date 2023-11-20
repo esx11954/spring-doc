@@ -25,7 +25,7 @@ categories: springExam1
 #### ダノンザキッド
 
 
-```SQL
+{% highlight sql %}
 CREATE DATABASE IF NOT EXISTS item;
 
 USE item;
@@ -37,15 +37,15 @@ CREATE TABLE IF NOT EXISTS item (
   vendor varchar(255),
   PRIMARY KEY (id)
 );
-```
+{% endhighlight %}
 
 
-```JAVA
-implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-```
+{% highlight java %}
+implementation 'org.springframework.boot:spring-boot-starter-data-jpa'  
+{% endhighlight %}
 
 ---
-区切り線テスト
+区切り線テスト  
 ---
 
 
