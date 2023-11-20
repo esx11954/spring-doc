@@ -2,7 +2,7 @@
 layout: post
 title:  "実践課題"
 date:   2023-11-20 10:16:51 +0900
-# categories: jekyll update
+categories: springExam1
 ---
 
 画像アップロードテスト1
