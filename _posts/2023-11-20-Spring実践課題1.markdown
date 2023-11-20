@@ -11,3 +11,11 @@ categories: springExam1
 
 画像アップロードテスト2
 <img src="/spring-doc/images/test-img.png" width="100%">
+
+
+
+ファイルダウンロードテスト
+[file-name]: https://esx11954.github.io/spring-doc/files/question-exam.xlsx
+
+
+[file-name][ファイルダウンロード]
