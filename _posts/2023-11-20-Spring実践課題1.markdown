@@ -10,4 +10,4 @@ date:   2023-11-20 10:16:51 +0900
 
 
 画像アップロードテスト2
-<img src="https://esx11954.github.io/spring-doc/images/test-img.png" width="100%">
+<img src="/spring-doc/images/test-img.png" width="100%">
