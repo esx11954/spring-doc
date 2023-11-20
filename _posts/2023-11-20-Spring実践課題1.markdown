@@ -15,7 +15,6 @@ categories: springExam1
 
 
 ファイルダウンロードテスト
-[file-name]: https://esx11954.github.io/spring-doc/files/question-exam.xlsx
+[file download](https://esx11954.github.io/spring-doc/files/question-exam.xlsx)
 
 
-[file download][file-name]
