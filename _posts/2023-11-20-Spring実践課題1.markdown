@@ -18,4 +18,4 @@ categories: springExam1
 [file-name]: https://esx11954.github.io/spring-doc/files/question-exam.xlsx
 
 
-[file-name][ファイルダウンロード]
+[file download][file-name]
