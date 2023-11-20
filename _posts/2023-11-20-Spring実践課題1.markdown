@@ -14,7 +14,54 @@ categories: springExam1
 
 
 
-ファイルダウンロードテスト
+ファイルダウンロードテスト  
 [file download](https://esx11954.github.io/spring-doc/files/question-exam.xlsx)
 
+
+
+# タイトルホルダー
+## リバティアイランド
+### イクイノックス
+#### ダノンザキッド
+
+
+```SQL
+CREATE DATABASE IF NOT EXISTS item;
+
+USE item;
+
+CREATE TABLE IF NOT EXISTS item (
+  id bigint(20) NOT NULL AUTO_INCREMENT,
+  name varchar(255),
+  price int,
+  vendor varchar(255),
+  PRIMARY KEY (id)
+);
+```
+
+
+```JAVA
+implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+```
+
+---
+区切り線テスト
+---
+
+
+`@OneToOne`, `@OneToMany`等により結合も可能  
+
+| インターフェース名 | 説明 |
+| --- | --- |
+|CrudRepository            |汎用的なCRUD操作を行うメソッドを提供  |
+|PagingAndSortingRepository|CrudRepository のfindAllメソッドにページネーション機能とソート機能を提供|
+|JpaRepository             |PagingAndSortingRepository を継承しているため、PagingAndSortingRepository および CrudRepository のメソッドも使用する事ができる|
+
+
+
+
+- 命名規約に従ったメソッド名での自動実装
+    - @Queryアノテーションでのクエリー指定
+        - リポジトリ実装クラスでクエリーを実装する
+- Specificationでの実装
 
