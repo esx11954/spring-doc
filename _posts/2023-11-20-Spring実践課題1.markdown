@@ -6,7 +6,7 @@ categories: springExam1
 ---
 
 画像アップロードテスト1
-![login](https://esx11954.github.io/spring-doc/images/test-img.png){:width="100%"}
+![login](/spring-doc/images/test-img.png){:width="100%"}
 
 
 画像アップロードテスト2
